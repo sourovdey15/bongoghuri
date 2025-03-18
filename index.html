@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo Site</title>
+    <!-- Tailwind And DaisyUI Link -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Custom Css -->
+    <style>
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        .s-media {
+            border-bottom: 2px solid #991B1A;
+            border-width: 50px;
+        }
+    </style>
+</head>
+
+<body class="">
+    <!-- Header  -->
+    <div class="container">
+        <!-- Navbar -->
+        <div class="navbar mt-6 flex justify-between text-white">
+            <!-- Logo Area -->
+            <div class="font-bold">
+                <h2 class="">বঙ্গঘুরি </h2>
+            </div>
+            <!-- Nav bar -->
+            <div class=" ">
+                <ul class="hidden lg:flex gap-12">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Travel Story</a> </li>
+                    <li><a href="# ">Blog</a></li>
+                    <details>
+                        <summary><a href="#">Plan & Info </a></summary>
+                        <ul class="p-2">
+                            <li><a href="#">Tour Plan</a> </li>
+                            <li><a href="#">Information</a></li>
+                        </ul>
+                    </details>
+                    <li><a href="#">Gallery</a></li>
+                    <li><a href="#">More</a> </li>
+                </ul>
+            </div>
+            <!-- Menu Button -->
+            <div>
+                <!-- Drop Down -->
+                <div class="dropdown z-10 ">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h8m-8 6h16" />
+                        </svg>
+                    </div>
+                    <ul tabindex="0"
+                        class="menu menu-md dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Travel Story</a> </li>
+                        <li><a href="# ">Blog</a></li>
+                        <details>
+                            <summary><a href="#">Plan & Info </a></summary>
+                            <ul class="p-2">
+                                <li><a href="#">Tour Plan</a> </li>
+                                <li><a href="#">Information</a></li>
+                            </ul>
+                        </details>
+                        <li><a href="#">Gallery</a></li>
+                        <li><a href="#">More</a> </li>
+                    </ul>
+                </div>
+                <!-- Button -->
+                <button class="btn ml-2">Profile</button>
+            </div>
+        </div>
+        <!-- Header Title Area -->
+        <div>
+            <div class="hero min-h-[500px] rounded-md"
+                style="background-image: url(images/Cover/cover1.jpg);">
+
+                <div class="hero-overlay bg-opacity-60"></div>
+                <div class="hero-content text-neutral-content text-center">
+                    <div class="max-w-md">
+                        <h1 class=" mb-5 text-3xl font-bold">স্মৃতি বন্দী ও অভিজ্ঞতা ভাগ  করো <br> --  বঙ্গঘুরির সাথে </h1>
+                        
+                        <button class="btn bg-green-600 border-0 font-bold">Send Story</button>
+                        <button class="btn bg-green-600 border-0 font-bold">Contact US</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Tourist Spot in BD -->
+     <div class="mt-8 container">
+        <div>
+            <h2 class="text-4xl font-extrabold mb-4">Bangladesh Tourist Spot</h2>
+            <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero nesciunt eos accusantium aut accusamus fugit quaerat soluta officiis rem temporibus.    </p>
+        </div>
+        <div>
+
+        </div>
+     </div>
+</body>
+<div class="grid grid-cols-1">
+
+</div>
+
+</html>
