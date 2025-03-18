@@ -22,11 +22,11 @@
     </style>
 </head>
 
-<body class="">
+<body class="bg-slate-200">
     <!-- Header  -->
     <div class="container">
         <!-- Navbar -->
-        <div class="navbar mt-6 flex justify-between text-white">
+        <div class="navbar mt-6 flex justify-between text-black">
             <!-- Logo Area -->
             <div class="font-bold">
                 <h2 class="">বঙ্গঘুরি </h2>
@@ -37,11 +37,11 @@
                     <li><a href="#">Home</a></li>
                     <li><a href="#">Travel Story</a> </li>
                     <li><a href="# ">Blog</a></li>
-                    <details>
-                        <summary><a href="#">Plan & Info </a></summary>
-                        <ul class="p-2">
-                            <li><a href="#">Tour Plan</a> </li>
-                            <li><a href="#">Information</a></li>
+                    <details >
+                        <summary class="relative "><a href="#">Plan & Info </a></summary>
+                        <ul class="absolute bg-slate-400  z-10 p-2 mt-2 space-y-1 ">
+                            <li class=""><a href="#">Tour Plan</a> </li>
+                            <li class=""><a href="#">Information</a></li>
                         </ul>
                     </details>
                     <li><a href="#">Gallery</a></li>
@@ -80,7 +80,7 @@
             </div>
         </div>
         <!-- Header Title Area -->
-        <div>
+        <div class="">
             <div class="hero min-h-[500px] rounded-md"
                 style="background-image: url(images/Cover/cover1.jpg);">
 
@@ -97,18 +97,245 @@
         </div>
     </div>
     <!-- Tourist Spot in BD -->
-     <div class="mt-8 container">
-        <div>
+    <div class="mt-8 container">
+        <div class="mb-10 text-gray-600">
             <h2 class="text-4xl font-extrabold mb-4">Bangladesh Tourist Spot</h2>
-            <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero nesciunt eos accusantium aut accusamus fugit quaerat soluta officiis rem temporibus.    </p>
+            <p class="w-[60%]">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero nesciunt eos accusantium aut accusamus fugit quaerat soluta officiis rem temporibus.    </p>
         </div>
-        <div>
-
+        <!-- Tour Card Carousel Area -->
+        <div class="mt-4">
+            <div class="carousel w-full">
+                <!-- Carousel item 1 -->
+                <div id="item1" class="carousel-item w-full space-x-8">
+                    <!-- Card 01 -->
+                    <div class="card bg-slate-200 w-80 drop-shadow-lg my-5 ">
+                        <figure class="px-5 pt-5    ">
+                          <img src="images/coxbazer.jpg" alt="Shoes" class="rounded-xl h-[255px] w-[500px] " />
+                        </figure>
+                        <div class="card-body items-left text-left text-black">
+                          <h2 class="card-title">Cox's Bazar</h2>
+                          <p>চট্টগ্রাম বিভাগ বাংলাদেশের দক্ষিণ-পূর্বাঞ্চলে 
+                            অবস্থিত একটি প্রশাসনিক বিভাগ।</p>
+                        </div>
+                    </div>
+                    <!-- Card 02 -->
+                    <div class="card bg-slate-200 w-80 drop-shadow-lg my-5 ">
+                        <figure class="px-5 pt-5   ">
+                          <img src="images/bandarban.jpg" alt="Shoes" class="rounded-xl h-[255px] w-[500px] " />
+                        </figure>
+                        <div class="card-body items-left text-left text-black">
+                          <h2 class="card-title">Bandarban</h2>
+                          <p>চট্টগ্রাম বিভাগ বাংলাদেশের দক্ষিণ-পূর্বাঞ্চলে 
+                            অবস্থিত একটি প্রশাসনিক বিভাগ।</p>
+                        </div>
+                    </div>
+                    <!-- Card 03 -->
+                    <div class="card bg-slate-200 w-80 drop-shadow-lg my-5 ">
+                        <figure class="px-5 pt-5    ">
+                          <img src="images/sylhet.jpg" alt="Shoes" class="rounded-xl h-[255px] w-[500px] " />
+                        </figure>
+                        <div class="card-body items-left text-left text-black">
+                          <h2 class="card-title">Sylhet</h2>
+                          <p>চট্টগ্রাম বিভাগ বাংলাদেশের দক্ষিণ-পূর্বাঞ্চলে 
+                            অবস্থিত একটি প্রশাসনিক বিভাগ।</p>
+                        </div>
+                    </div>
+                    <!-- Card 03 -->
+                    <div class="card bg-slate-200 w-80 drop-shadow-lg my-5 ">
+                        <figure class="px-5 pt-5    ">
+                          <img src="images/sentmartain.jpg" alt="Shoes" class="rounded-xl h-[255px] w-[500px] " />
+                        </figure>
+                        <div class="card-body items-left text-left text-black">
+                          <h2 class="card-title">SaintMartin</h2>
+                          <p>চট্টগ্রাম বিভাগ বাংলাদেশের দক্ষিণ-পূর্বাঞ্চলে 
+                            অবস্থিত একটি প্রশাসনিক বিভাগ।</p>
+                        </div>
+                    </div>
+                <!-- Carousel item 2 -->
+                </div>
+                 <!-- Carousel item 2 -->
+                <div id="item2" class="carousel-item w-full space-x-8">
+                  <!-- Card 01 -->
+                  <div class="card bg-slate-200 w-80 drop-shadow-lg my-5 ">
+                    <figure class="px-5 pt-5    ">
+                      <img src="images/coxbazer.jpg" alt="Shoes" class="rounded-xl h-[255px] w-[500px] " />
+                    </figure>
+                    <div class="card-body items-left text-left text-black">
+                      <h2 class="card-title">Cox's Bazar</h2>
+                      <p>চট্টগ্রাম বিভাগ বাংলাদেশের দক্ষিণ-পূর্বাঞ্চলে 
+                        অবস্থিত একটি প্রশাসনিক বিভাগ।</p>
+                    </div>
+                </div>
+                <!-- Card 02 -->
+                <div class="card bg-slate-200 w-80 drop-shadow-lg my-5 ">
+                    <figure class="px-5 pt-5   ">
+                      <img src="images/bandarban.jpg" alt="Shoes" class="rounded-xl h-[255px] w-[500px] " />
+                    </figure>
+                    <div class="card-body items-left text-left text-black">
+                      <h2 class="card-title">Bandarban</h2>
+                      <p>চট্টগ্রাম বিভাগ বাংলাদেশের দক্ষিণ-পূর্বাঞ্চলে 
+                        অবস্থিত একটি প্রশাসনিক বিভাগ।</p>
+                    </div>
+                </div>
+                <!-- Card 03 -->
+                <div class="card bg-slate-200 w-80 drop-shadow-lg my-5 ">
+                    <figure class="px-5 pt-5    ">
+                      <img src="images/sylhet.jpg" alt="Shoes" class="rounded-xl h-[255px] w-[500px] " />
+                    </figure>
+                    <div class="card-body items-left text-left text-black">
+                      <h2 class="card-title">Sylhet</h2>
+                      <p>চট্টগ্রাম বিভাগ বাংলাদেশের দক্ষিণ-পূর্বাঞ্চলে 
+                        অবস্থিত একটি প্রশাসনিক বিভাগ।</p>
+                    </div>
+                </div>
+                <!-- Card 03 -->
+                <div class="card bg-slate-200 w-80 drop-shadow-lg my-5 ">
+                    <figure class="px-5 pt-5    ">
+                      <img src="images/sentmartain.jpg" alt="Shoes" class="rounded-xl h-[255px] w-[500px] " />
+                    </figure>
+                    <div class="card-body items-left text-left text-black">
+                      <h2 class="card-title">SaintMartin</h2>
+                      <p>চট্টগ্রাম বিভাগ বাংলাদেশের দক্ষিণ-পূর্বাঞ্চলে 
+                        অবস্থিত একটি প্রশাসনিক বিভাগ।</p>
+                    </div>
+                </div>
+                </div>
+                <!-- Carousel item 3 -->
+                <div id="item3" class="carousel-item w-full space-x-8">
+                  <!-- Card 01 -->
+                  <div class="card bg-slate-200 w-80 drop-shadow-lg my-5 ">
+                    <figure class="px-5 pt-5    ">
+                      <img src="images/coxbazer.jpg" alt="Shoes" class="rounded-xl h-[255px] w-[500px] " />
+                    </figure>
+                    <div class="card-body items-left text-left text-black">
+                      <h2 class="card-title">Cox's Bazar</h2>
+                      <p>চট্টগ্রাম বিভাগ বাংলাদেশের দক্ষিণ-পূর্বাঞ্চলে 
+                        অবস্থিত একটি প্রশাসনিক বিভাগ।</p>
+                    </div>
+                </div>
+                <!-- Card 02 -->
+                <div class="card bg-slate-200 w-80 drop-shadow-lg my-5 ">
+                    <figure class="px-5 pt-5   ">
+                      <img src="images/bandarban.jpg" alt="Shoes" class="rounded-xl h-[255px] w-[500px] " />
+                    </figure>
+                    <div class="card-body items-left text-left text-black">
+                      <h2 class="card-title">Bandarban</h2>
+                      <p>চট্টগ্রাম বিভাগ বাংলাদেশের দক্ষিণ-পূর্বাঞ্চলে 
+                        অবস্থিত একটি প্রশাসনিক বিভাগ।</p>
+                    </div>
+                </div>
+                <!-- Card 03 -->
+                <div class="card bg-slate-200 w-80 drop-shadow-lg my-5 ">
+                    <figure class="px-5 pt-5    ">
+                      <img src="images/sylhet.jpg" alt="Shoes" class="rounded-xl h-[255px] w-[500px] " />
+                    </figure>
+                    <div class="card-body items-left text-left text-black">
+                      <h2 class="card-title">Sylhet</h2>
+                      <p>চট্টগ্রাম বিভাগ বাংলাদেশের দক্ষিণ-পূর্বাঞ্চলে 
+                        অবস্থিত একটি প্রশাসনিক বিভাগ।</p>
+                    </div>
+                </div>
+                <!-- Card 03 -->
+                <div class="card bg-slate-200 w-80 drop-shadow-lg my-5 ">
+                    <figure class="px-5 pt-5    ">
+                      <img src="images/sentmartain.jpg" alt="Shoes" class="rounded-xl h-[255px] w-[500px] " />
+                    </figure>
+                    <div class="card-body items-left text-left text-black">
+                      <h2 class="card-title">SaintMartin</h2>
+                      <p>চট্টগ্রাম বিভাগ বাংলাদেশের দক্ষিণ-পূর্বাঞ্চলে 
+                        অবস্থিত একটি প্রশাসনিক বিভাগ।</p>
+                    </div>
+                </div>
+                </div>
+                <!-- Carousel item 4 -->
+                <div id="item4" class="carousel-item w-full space-x-8">
+                  <!-- Card 01 -->
+                  <div class="card bg-slate-200 w-80 drop-shadow-lg my-5 ">
+                    <figure class="px-5 pt-5    ">
+                      <img src="images/coxbazer.jpg" alt="Shoes" class="rounded-xl h-[255px] w-[500px] " />
+                    </figure>
+                    <div class="card-body items-left text-left text-black">
+                      <h2 class="card-title">Cox's Bazar</h2>
+                      <p>চট্টগ্রাম বিভাগ বাংলাদেশের দক্ষিণ-পূর্বাঞ্চলে 
+                        অবস্থিত একটি প্রশাসনিক বিভাগ।</p>
+                    </div>
+                </div>
+                <!-- Card 02 -->
+                <div class="card bg-slate-200 w-80 drop-shadow-lg my-5 ">
+                    <figure class="px-5 pt-5   ">
+                      <img src="images/bandarban.jpg" alt="Shoes" class="rounded-xl h-[255px] w-[500px] " />
+                    </figure>
+                    <div class="card-body items-left text-left text-black">
+                      <h2 class="card-title">Bandarban</h2>
+                      <p>চট্টগ্রাম বিভাগ বাংলাদেশের দক্ষিণ-পূর্বাঞ্চলে 
+                        অবস্থিত একটি প্রশাসনিক বিভাগ।</p>
+                    </div>
+                </div>
+                <!-- Card 03 -->
+                <div class="card bg-slate-200 w-80 drop-shadow-lg my-5 ">
+                    <figure class="px-5 pt-5    ">
+                      <img src="images/sylhet.jpg" alt="Shoes" class="rounded-xl h-[255px] w-[500px] " />
+                    </figure>
+                    <div class="card-body items-left text-left text-black">
+                      <h2 class="card-title">Sylhet</h2>
+                      <p>চট্টগ্রাম বিভাগ বাংলাদেশের দক্ষিণ-পূর্বাঞ্চলে 
+                        অবস্থিত একটি প্রশাসনিক বিভাগ।</p>
+                    </div>
+                </div>
+                <!-- Card 03 -->
+                <div class="card bg-slate-200 w-80 drop-shadow-lg my-5 ">
+                    <figure class="px-5 pt-5    ">
+                      <img src="images/sentmartain.jpg" alt="Shoes" class="rounded-xl h-[255px] w-[500px] " />
+                    </figure>
+                    <div class="card-body items-left text-left text-black">
+                      <h2 class="card-title">SaintMartin</h2>
+                      <p>চট্টগ্রাম বিভাগ বাংলাদেশের দক্ষিণ-পূর্বাঞ্চলে 
+                        অবস্থিত একটি প্রশাসনিক বিভাগ।</p>
+                    </div>
+                </div>
+                </div>
+              </div>
+              <div class="flex w-full justify-center gap-2 py-2">
+                <a href="#item1" class="btn btn-xs">.</a>
+                <a href="#item2" class="btn btn-xs">.</a>
+                <a href="#item3" class="btn btn-xs">.</a>
+                <a href="#item4" class="btn btn-xs">.</a>
+              </div>
         </div>
      </div>
+     <!-- Trevel Story Area -->
+      <div class="mt-8 container">
+        <!-- Travel Story Heading Area -->
+        <div class="mb-10 text-gray-600">
+            <h2 class="text-4xl font-extrabold mb-4">Travel Story</h2>
+            <p class="w-[60%]">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero nesciunt eos accusantium aut accusamus fugit quaerat soluta officiis rem temporibus.    </p>
+        </div>
+        <!-- Travel Story Blog Area -->
+         <div class="grid grid-cols-3 grid-rows-2 gap-5 ">
+            <div class="col-span-2 row-span-2">
+                <img src="images/Cover/cover2.jpg" alt="">
+            </div>
+            <div class=" ">
+                <img src="images/sundarban3.jpg" alt="">
+            </div>
+            <div class="-mt-2">
+                <img src="images/kuyakata.jpg" alt="">
+            </div>
+         </div>
+         <div class="flex mt-4 gap-5">
+            <div class="  ">
+                <img src="images/sundarban3.jpg" alt="">
+            </div>
+            <div class="">
+                <img src="images/tea-7331591_1280.jpg" alt="">
+            </div>
+         </div>
+         <div class="mt-5 text-center">
+            <button class="btn text-white bg-green-600 border-0 font-bold">See More</button>
+         </div>
+         
+      </div>
 </body>
-<div class="grid grid-cols-1">
 
-</div>
 
 </html>
